@@ -16,4 +16,4 @@ si quieres hacer funcionar las variables globales
 const __filename = fileURLToPath(import.meta.url);
 const ___dirname = dirname(__filename);
 
-console.log(`soy filname -> ${__filename} y yo soy ${___dirname}`);
+//console.log(`soy filname -> ${__filename} y yo soy ${___dirname}`);

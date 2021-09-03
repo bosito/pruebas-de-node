@@ -1,0 +1,5 @@
+por el momento los archivos que no titenen import no estas funcionando 
+por que configuramos nuestro pakage.JSON de esa manera.
+
+osea quita esta liinea
+* -> "type": "module",

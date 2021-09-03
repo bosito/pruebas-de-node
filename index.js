@@ -72,3 +72,5 @@ const getPages = async (path) => {
 
     };
 };
+
+console.log('wolas que hay');

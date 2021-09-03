@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node index.js",
     "imports": "node imports-node.js",
+    "dev": "nodemon imports-node.js",
+    "terea1": "node  terea1.js",
+    "debug": "node --inspect-brk services.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watch  --verbose",
     "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watch  --coverage"
@@ -16,5 +19,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "jest": "^27.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
