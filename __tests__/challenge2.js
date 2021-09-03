@@ -11,7 +11,7 @@ describe("comparando async/await con jest", () => {
         expect(response).toEqual(expect.any(Array));
     });
 
-    test("deberia regresar el pokemon pikachu", async () => {
+    test("debería regresar el pokemon pikachu", async () => {
         //Assert
         const pokemon = "bulbasaur";
         //Act

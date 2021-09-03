@@ -8,7 +8,8 @@
     "start": "node index.js",
     "imports": "node imports-node.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watch  --verbose"
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watch  --verbose",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watch  --coverage"
   },
   "author": "Jose luis",
   "license": "ISC",
