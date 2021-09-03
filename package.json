@@ -8,7 +8,6 @@
     "start": "node index.js",
     "imports": "node imports-node.js",
     "dev": "nodemon imports-node.js",
-    "terea1": "node  terea1.js",
     "debug": "node --inspect-brk services.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watch  --verbose",
